@@ -1,10 +1,12 @@
 function Skills() {
   return (
     <div>
-      <header className="flex bg-zinc-950 h-13 text-white justify-center items-center font-serif text-3xl font-medium ">
+      <header className="flex bg-zinc-950 h-13 text-slate-100 justify-center items-center font-semibold text-3xl ">
         <p>Skills</p>
       </header>
-      <section></section>
+      <section className="h-90">
+
+      </section>
     </div>
   );
 }
