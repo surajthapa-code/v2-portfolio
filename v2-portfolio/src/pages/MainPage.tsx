@@ -6,7 +6,7 @@ function MainPage() {
   return (
     <div className="w-full overflow-hidden bg-zinc-950 text-slate-100">
       <Navbar />
-      <main className="relative min-h-[85vh] overflow-hidden">
+      <main className=" relative mt-16 min-h-[85vh] overflow-hidden">
         <img
           className="absolute inset-0 h-full w-full object-cover"
           src="/animeWP.jpg"
@@ -27,10 +27,10 @@ function MainPage() {
               subtle motion, and strong technical foundations.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <span className="transition-transform duration-500 ease-out hover:scale-105 inline-flex items-center rounded-full border border-slate-700 bg-white/5 px-4 py-2 text-sm text-slate-300">
+              <span className=" cursor-pointer transition-transform duration-500 ease-out hover:scale-105 inline-flex items-center rounded-full border border-slate-700 bg-white/5 px-4 py-2 text-sm text-slate-300">
                 React • TypeScript • Tailwind
               </span>
-              <span className=" transition-transform duration-500 ease-out hover:scale-105 inline-flex items-center gap-1 rounded-full border border-slate-700 bg-white/5 px-4 py-2 text-sm text-slate-300">
+              <span className=" cursor-pointer transition-transform duration-500 ease-out hover:scale-105 inline-flex items-center gap-1 rounded-full border border-slate-700 bg-white/5 px-4 py-2 text-sm text-slate-300">
                 <span className="text-green-500 text-xl font-bold text-shadow-[0_0_8px_currentColor] transition-all duration-300 hover:text-shadow-[0_0_20px_currentColor]">
                   •
                 </span>
