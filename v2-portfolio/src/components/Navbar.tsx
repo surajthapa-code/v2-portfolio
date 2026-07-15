@@ -23,7 +23,7 @@ function Navbar() {
         <HoverCard>
           <HoverCardTrigger delay={100} closeDelay={200}>
             <NavLink
-              to="/skills"
+              to="/SkillsPage"
               className={({ isActive }) =>
                 `cursor-pointer transition-all duration-300 hover:underline hover:text-red-400 hover:drop-shadow-[0_0_8px_#f87171] ${
                   isActive

@@ -3,7 +3,7 @@ import "./App.css";
 
 import MainPage from "./pages/MainPage";
 import Layout from "./components/Layout";
-import Skills from "./components/Skills";
+import SkillsPage from "./pages/SkillsPage";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/SkillsPage" element={<SkillsPage />} />
         </Route>
       </Routes>
     </>
