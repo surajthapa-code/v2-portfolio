@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
 import React from "react";
+import TrueFocus from "../components/ui/TrueFocus";
 
 function MainPage() {
   return (
@@ -19,9 +20,16 @@ function MainPage() {
             <p className="mb-4 text-xs uppercase tracking-[0.35em] text-slate-400">
               Full Stack Web Developer • product-focused
             </p>
-            <h1 className="text-4xl font-semibold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Suraj Thapa
-            </h1>
+            <span className="text-4xl font-semibold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
+              <TrueFocus
+                sentence="Suraj Thapa"
+                manualMode
+                blurAmount={5}
+                borderColor="#F97316"
+                animationDuration={0.5}
+                pauseBetweenAnimations={1}
+              />
+            </span>
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">
               I build clean, thoughtful web experiences with minimal design,
               subtle motion, and strong technical foundations.
@@ -34,7 +42,7 @@ function MainPage() {
                 <span className="text-green-500 text-xl font-bold text-shadow-[0_0_8px_currentColor] transition-all duration-300 hover:text-shadow-[0_0_20px_currentColor]">
                   •
                 </span>
-                Learning Node.js  
+                Learning Node.js
               </span>
             </div>
           </div>
