@@ -51,9 +51,14 @@ function Navbar() {
         </HoverCard>
         <HoverCard>
           <HoverCardTrigger delay={100} closeDelay={200}>
-            <p className="cursor-pointer transition-all duration-300 hover:underline hover:text-blue-400 hover:drop-shadow-[0_0_8px_#60a5fa]">
+            <a
+              href="https://github.com/surajthapa-code"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="cursor-pointer transition-all duration-300 hover:underline hover:text-blue-400 hover:drop-shadow-[0_0_8px_#60a5fa]"
+            >
               Github
-            </p>
+            </a>
           </HoverCardTrigger>
           <HoverCardContent>
             <p className="text-blue-400">Check my Github</p>
@@ -62,9 +67,14 @@ function Navbar() {
 
         <HoverCard>
           <HoverCardTrigger delay={100} closeDelay={200}>
-            <p className="cursor-pointer transition-all duration-300 hover:underline hover:text-green-400 hover:drop-shadow-[0_0_8px_#4ade80]">
+            <a
+              href="https://www.linkedin.com/in/suraj-thapa-/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer transition-all duration-300 hover:underline hover:text-green-400 hover:drop-shadow-[0_0_8px_#4ade80]"
+            >
               Linkedin
-            </p>{" "}
+            </a>
           </HoverCardTrigger>
           <HoverCardContent>
             <p className="text-green-400">Check my Linkedin</p>
